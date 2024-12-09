@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Yasmin Lobo</title>
+    <title> Yasmin Siqueira Lobo</title>
   </head>
   <body>
     <nav>
@@ -19,85 +19,118 @@
         </div>
       </div>
       <ul class="nav__links" id="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#service">Certificados</a></li>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#servicos">Serviços</a></li>
         <li><a href="#portfolio">Projetos</a></li>
-        <li><a href="#contact" class="btn">Contact</a></li>
+        <li><a href="#contato" class="btn">Contato</a></li>
       </ul>
-      <a href="#contact" class="btn btn__large">Contact</a>
     </nav>
-    <header class="section__container header__container" id="home">
+
+    <header class="section__container header__container" id="inicio">
       <div class="header__content">
-        <h1>Yasmin Siqueira Lobo</h1>
+        <div>
+          <h1>Yasmin Siqueira Lobo</h1>
+          <h3>Desenvolvedora Web & Mobile</h3>
+        </div>
         <p class="section__description">
-          Técnico em Análise e Desenvolvimento de Sistemas (2023 - 2024 | SENAI). Desenvolvedora com habilidades em Frontend e Backend, buscando transformar ideias em realidade digital.
+          Sou técnica em Análise e Desenvolvimento de Sistemas pelo SENAI, com experiência em front-end, back-end e desenvolvimento de aplicativos. Apaixonada por tecnologia e soluções criativas, sempre busco inovar em meus projetos.
         </p>
         <div class="header__btn">
-          <button class="btn">Hire Me Now</button>
+          <button class="btn">Contrate-me</button>
         </div>
+      </div>
+      <div class="header__image">
+        <img src="assets/foto-yasmin.jpg" alt="Foto de Yasmin" />
       </div>
     </header>
 
-    <section class="section__container about__container" id="about">
+    <section class="section__container about__container" id="sobre">
       <div class="about__content">
         <h2 class="section__header">Sobre Mim</h2>
         <p class="section__description">
-          Com formação em desenvolvimento de sistemas, analiso requisitos, desenvolvo e testo sistemas de software. Minhas habilidades abrangem HTML, CSS, JavaScript, Python, React Native e controle de versionamento com Git.
+          Formada em Análise e Desenvolvimento de Sistemas pelo SENAI (2023-2024), adquiri conhecimentos sólidos em análise de requisitos, desenvolvimento de sistemas, testes de software, e boas práticas do mercado. Com habilidades em Python, JavaScript, React Native e SEO, sou comprometida com a criação de soluções que atendam às necessidades dos usuários.
         </p>
         <div class="about__btn">
-          <button class="btn">Download CV</button>
+          <button class="btn">Baixar Currículo</button>
+        </div>
+      </div>
+      <div class="about__image">
+        <img src="assets/sobre-yasmin.jpg" alt="Yasmin" class="about__img" />
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="servicos">
+      <h2 class="section__header">Certificados</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-certificate-fill"></i></span>
+          <h4>Fundamentos do Python</h4>
+          <p>Emitido pela Academia de Redes Cisco (1 e 2).</p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-certificate-fill"></i></span>
+          <h4>Fundamentos do JavaScript</h4>
+          <p>Emitido pela Academia de Redes Cisco (1 e 2).</p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-certificate-fill"></i></span>
+          <h4>Desvendando a Blockchain</h4>
+          <p>Emitido pelo SENAI.</p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-certificate-fill"></i></span>
+          <h4>Desvendando o 5G</h4>
+          <p>Emitido pelo SENAI.</p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-certificate-fill"></i></span>
+          <h4>WEB 3.0</h4>
+          <p>Emitido pelo SENAI.</p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-certificate-fill"></i></span>
+          <h4>Preparação para o Mundo do Trabalho</h4>
+          <p>Emitido pelo SENAI.</p>
         </div>
       </div>
     </section>
 
-    <section class="section__container service__container" id="service">
-      <h2 class="section__header">Certificados</h2>
-      <ul>
-        <li>Fundamentos do Python 1 - Cisco</li>
-        <li>Fundamentos do Python 2 - Cisco</li>
-        <li>Fundamentos do JavaScript 1 - Cisco</li>
-        <li>Fundamentos do JavaScript 2 - Cisco</li>
-        <li>Desvendando a Blockchain - SENAI</li>
-        <li>Desvendando a Indústria 4.0 - SENAI</li>
-        <li>Empreender SENAI - SENAI</li>
-        <li>WEB 3.0 - SENAI</li>
-        <li>Preparação para o Mundo do Trabalho - SENAI</li>
-        <li>Desvendando o 5G - SENAI</li>
-      </ul>
-    </section>
-
     <section class="section__container portfolio__container" id="portfolio">
-      <h2 class="section__header">Projetos Acadêmicos</h2>
-      <ul>
-        <li>
-          <strong>Site de Gerenciamento de Pedidos para Hamburgueria (2023)</strong>: Desenvolvimento de site funcional com HTML, CSS, JavaScript e back-end em Python.
-        </li>
-        <li>
-          <strong>Aplicativo de Gerenciamento de Festas (2024)</strong>: Aplicativo móvel em React Native para organização e controle de eventos.
-        </li>
-        <li>
-          <strong>Site de Previsão do Tempo (2024)</strong>: Site com integração de APIs para exibição de previsões meteorológicas.
-        </li>
-      </ul>
-    </section>
-
-    <section class="section__container contact__container" id="contact">
-      <h2 class="section__header">Entre em Contato</h2>
-      <p class="section__description">
-        Yasmin Siqueira Lobo <br />
-        Caçapava - SP <br />
-        Telefone: (12) 99786-4262 <br />
-        Email: yasminsiqueiralobo@gmail.com
-      </p>
-      <div class="contact__socials">
-        <a href="#"><i class="ri-linkedin-fill"></i></a>
-        <a href="#"><i class="ri-github-fill"></i></a>
-        <a href="#"><i class="ri-mail-fill"></i></a>
+      <h2 class="section__header">Projetos</h2>
+      <div class="portfolio__grid">
+        <div class="portfolio__card">
+          <h4>Site de Gerenciamento de Pedidos</h4>
+          <p>Desenvolvido para uma hamburgueria, utilizando HTML, CSS, JavaScript e integração com Python.</p>
+        </div>
+        <div class="portfolio__card">
+          <h4>Aplicativo de Gerenciamento de Festas</h4>
+          <p>Aplicativo móvel em React Native para organização de eventos, incluindo lista de convidados e orçamento.</p>
+        </div>
+        <div class="portfolio__card">
+          <h4>Site de Previsão do Tempo</h4>
+          <p>Site que exibe previsões meteorológicas em tempo real utilizando APIs.</p>
+        </div>
       </div>
     </section>
+
+    <section class="section__container contact__container" id="contato">
+      <h2 class="section__header">Contato</h2>
+      <p class="section__description">
+        Entre em contato para parcerias, projetos ou dúvidas. Vamos conversar!
+      </p>
+      <div class="contact__socials">
+        <a href="https://www.linkedin.com/in/yasminslobo/" target="_blank"><i class="ri-linkedin-fill"></i> LinkedIn</a>
+        <a href="mailto:yasminsiqueiralobo@gmail.com"><i class="ri-mail-fill"></i> E-mail</a>
+        <a href="tel:+5512997864262"><i class="ri-phone-fill"></i> (12) 99786-4262</a>
+      </div>
+    </section>
+
     <footer class="footer">
-      Copyright © 2024 Yasmin Siqueira Lobo. Todos os direitos reservados.
+      <p>Copyright © 2024 Yasmin Siqueira Lobo. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
   </body>
 </html>
